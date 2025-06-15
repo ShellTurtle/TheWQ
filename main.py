@@ -4,7 +4,7 @@ from PyQt6.QtGui import QIcon
 class Notepad(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("TheWQ - 一个真正小而美的记事本")
+        self.setWindowTitle("TheWQ")
         self.setGeometry(100, 100, 400, 300)
         self.text_edit = QTextEdit(self)
         self.setCentralWidget(self.text_edit)
