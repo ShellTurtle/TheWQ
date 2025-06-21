@@ -8,7 +8,7 @@ class Notepad(QMainWindow):
         self.setGeometry(100, 100, 400, 300)
         self.text_edit = QTextEdit(self)
         self.setCentralWidget(self.text_edit)
-        self.setWindowIcon(QIcon('./TheWQ.png'))
+        self.setWindowIcon(QIcon('./icon.ico'))
         
         # 创建菜单栏
         menu_bar = self.menuBar()
