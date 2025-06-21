@@ -5,7 +5,7 @@ class Notepad(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("TheWQ")
-        self.setGeometry(100, 100, 400, 300)
+        self.setGeometry(100, 100, 500, 460)
         self.text_edit = QTextEdit(self)
         self.setCentralWidget(self.text_edit)
         self.setWindowIcon(QIcon('../resources/icon.ico'))
